@@ -13,8 +13,7 @@ translate.translate("我是一只猪", ["de-DE", "el-GR", "fr-FR", "ja-JP", "ru-
     }
 });
 
-translate.translateOneByOne("你是一只小朋友,
-我也是", ["de-DE", "el-GR", "fr-FR", "ja-JP", "ru-RU", "vi-VN", "en-GB"]).then(function (transResults) {
+translate.translateOneByOne("你是一只小朋友, 我也是", ["de-DE", "el-GR", "fr-FR", "ja-JP", "ru-RU", "vi-VN", "en-GB"]).then(function (transResults) {
     for(let result of transResults) {
         console.log(result[0], ": ", result[1]);
     }
@@ -26,8 +25,7 @@ translate.translateObj({test:{test:"SCORE"}}, ["de-DE", "el-GR", "fr-FR", "ja-JP
     }
  });
 
-translate.translateObjOneByOne({test:{test:"BEST SCORE.
-YES IT IS!
+translate.translateObjOneByOne({test:{test:"BEST SCORE. YES IT IS!
  "}}, ["de-DE", "el-GR", "fr-FR", "ja-JP", "ru-RU", "vi-VN", "en-GB", "zh-CN"]).then(function (transResults) {
     for(let result of transResults) {
         console.log(result[0], ": ", JSON.stringify(result[1]));
