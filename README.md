@@ -1,10 +1,10 @@
 # google-translate
 
 
-# StartUp
+## StartUp
 `node test.js`
 
-# Usage
+## Usage
 const translate = require("./src/translate");
 
 translate.translate("我是一只猪", ["de-DE", "el-GR", "fr-FR", "ja-JP", "ru-RU", "vi-VN", "en-GB"], function (transResults) {
