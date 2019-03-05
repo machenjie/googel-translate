@@ -7,8 +7,8 @@
     "test": "node test.js",
     "start": "node locale-translate.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["google", "translate", "google-translate"],
+  "author": "leo ma",
   "license": "ISC",
   "dependencies": {}
 }
