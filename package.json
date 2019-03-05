@@ -1,0 +1,14 @@
+{
+  "name": "Translate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "locale-translate.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node locale-translate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
