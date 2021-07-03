@@ -10,7 +10,7 @@ let langList = ["ar", "ko", "de", "ru", "fr", "bn", "pt-br", "ja", "es", "hi", "
 if (!fs.existsSync(storeDir)) {
     fs.mkdirSync(storeDir);
 }
-translate.translateObjOneByOne(JSON.parse(srcLangData), langList).then(function (transResults) {
+translate.translateObj(JSON.parse(srcLangData), langList, function (transResults) {
     for(let result of transResults) {
         fs.writeFile(storeDir + result[0] +'.json', JSON.stringify(result[1]), (err) => {
         });
