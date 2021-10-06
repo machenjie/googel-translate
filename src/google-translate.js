@@ -58,7 +58,7 @@ async function GoogleTranslate(txt, opts) {
     let sl = opts.from || "auto";
     let dl = opts.to || "en";
     let client = opts.client || "webapp";
-    let hostname = 'translate.google.cn';
+    let hostname = 'translate.google.com';
     let method = 'GET';
     let userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36';
     let path = "";
